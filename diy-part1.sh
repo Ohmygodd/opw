@@ -16,3 +16,13 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# 梯子
+git clone https://github.com/fw876/helloworld.git package/helloworld
+#网络唤醒
+git clone https://github.com/sundaqiang/openwrt-packages.git package/sundaqiang
+
+git clone https://github.com/sgpublic/openwrt-packages.git package/sgpublic
+
+#主题
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/jerrykuku/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/jerrykuku/luci-app-argon-config
